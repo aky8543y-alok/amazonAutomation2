@@ -65,7 +65,7 @@ export default defineConfig({
   // true  = tests can run fully in parallel
   // false = tests are not fully parallel
 
-  fullyParallel: false,
+  fullyParallel: true,
 
 
   // ============================================================
@@ -73,7 +73,7 @@ export default defineConfig({
   // ============================================================
   // Number of parallel workers
 
-  workers: 1,
+  workers: 2,
 
   // For CI you can use:
   // workers: process.env.CI ? 2 : undefined,
@@ -141,7 +141,7 @@ export default defineConfig({
     // true  = browser opens
     // false = headless
 
-    headless: false,
+    headless: true
 
 
     // --------------------------------------------------------
