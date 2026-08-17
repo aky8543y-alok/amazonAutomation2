@@ -141,7 +141,7 @@ export default defineConfig({
     // true  = browser opens
     // false = headless
 
-    headless: true
+    headless: true,
 
 
     // --------------------------------------------------------
