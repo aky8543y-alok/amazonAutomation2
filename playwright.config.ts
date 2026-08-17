@@ -149,7 +149,7 @@ export default defineConfig({
     // --------------------------------------------------------
     // Timeout for click(), fill(), etc.
 
-    actionTimeout: 15 * 1000,
+    actionTimeout: 30000,
 
 
     // --------------------------------------------------------
@@ -157,7 +157,7 @@ export default defineConfig({
     // --------------------------------------------------------
     // Timeout for page.goto(), reload(), etc.
 
-    navigationTimeout: 60 * 1000,
+    navigationTimeout: 30000,
 
 
     // --------------------------------------------------------
